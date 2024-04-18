@@ -1,0 +1,29 @@
+
+td{
+    width: 50px;
+}
+#th2{
+    width: 50px;
+    text-align: left;
+}
+tr:hover {
+    background-color: blueviolet;
+}
+h2 {
+    color: #333;
+    margin-bottom: 5px;
+}
+td:nth-child(1) {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+td:nth-child(3) {
+    text-align: end;
+}
+table, th, td {
+    border: 1px solid black;
+
+}

@@ -1,0 +1,59 @@
+body > div {
+    height: 100px;
+    margin: 5px;
+    position: relative;
+   
+}
+ 
+.box {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* 3 kolommen */
+    grid-template-rows: repeat(5, 100px); /* 5 rijen */
+    gap: 5px; /* ruimte tussen cellen */
+   
+  }
+ 
+.box > div {
+    position: inherit;
+    border-bottom: 2px dashed black;
+    border-top: 2px dashed black;
+    bottom: 0;
+    width: 100%;
+    border-right: 2px dashed black;
+    margin-right: 2px;
+    margin-bottom:2px;
+
+  }
+ 
+  .box > div:nth-child(3n+1) {
+    background-color: black;
+  }
+  .box > div:nth-child(3n+2) {
+    background-color: yellow;
+  }
+ 
+  .box > div:nth-child(3n+3) {
+    background-color: red;
+  }
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
